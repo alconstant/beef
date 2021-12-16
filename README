@@ -2,7 +2,7 @@
 
 ###Your Wish is My Command Injection###
 
-!(:etc:passwd.png)
+!(/beef/:etc:passwd.png)
 
 
 ###A Brute Force to Be Reckoned With###
