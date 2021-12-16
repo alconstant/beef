@@ -22,4 +22,9 @@
 
 ### Where's the beEF?
 
+Infected beEf with Fake Notification Bar and Get Geolocation to hook website. I struggled to use the stored XXS and inject a beef payload into the replicant's website. 
+
+![](/Images/beef.png)
+
+- Mitigation: To mitigate future attacks where scripts are involved, remove the value of <script> from the payload which will prevent the execution of this type of atttack.
 
