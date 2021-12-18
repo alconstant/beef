@@ -22,9 +22,15 @@
 
 ### Where's the beEF?
 
-Infected beEf with Fake Notification Bar and Get Geolocation to hook website. I struggled to use the stored XXS and inject a beef payload into the replicant's website. 
+- To have the ability to insert the script into the message body, we need to change the maximum text length using Inspect Element. I changed maxlength to 55 to allow the full script command in the message body. Once entered I viewed the page source to verify.
 
-![](/Images/beef.png)
+
+![](/Images/beefscript.png)
+
+- Once the site was hooked using beEF, I went to social engineering and used the Pretty Theft command to execute an attack. This popukated a user log in for Facebook where I was able to capture the user login and password. 
+
+![](/Images/beefexploit.png)
+
 
 - Mitigation: To mitigate future attacks where scripts are involved, remove the value of <script> from the payload which will prevent the execution of this type of atttack.
 
